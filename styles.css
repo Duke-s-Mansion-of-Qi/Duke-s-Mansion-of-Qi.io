@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ :root {
+    --bg: #222;
+    --clr: #fff;
+ }
+ body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--clr);
+    font-family: Arial, sans-serif;
+ }
+ header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+ }
+ main {
+    flex: 1;
+    padding: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    color: #000;
+ }
+ footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+ }
+ 
